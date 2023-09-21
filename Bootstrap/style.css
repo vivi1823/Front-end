@@ -1,0 +1,67 @@
+@media (min-width: 576px)
+{
+   .principal{
+    background-color: red;
+   }
+
+}
+@media (min-width: 768px)
+{
+   .principal{
+    background-color: blue;
+   }
+
+}
+@media (min-width: 992px)
+{
+   .principal{
+    background-color: green;
+   }
+
+}
+@media (min-width: 1200px)
+{
+   .principal{
+    background-color: gray;
+   }
+
+}
+@media (min-width: 1400px)
+{
+   .principal{
+    background-color: purple;
+   }
+
+}
+@media (min-width: 576px)
+{
+   .principal2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJthkRTpAEQ6-QhM2pJO6tEFr7fZURoQD6gh2kMA795qwMGE0wzmkDqo_ez-1gwGvytRY&usqp=CAU);
+   }
+
+}
+@media (min-width: 768px)
+{
+   .principal2{
+    background-image: url(https://ae01.alicdn.com/kf/Hdb778e67473d4011bf5b10a1978ee7bdI/Disney-Cute-Stitch-Cartoon-Canvas-Painting-Anime-Lilo-Stitch-Posters-Prints-Wall-Pictures-for-Kids-Room.jpg_640x640.jpg)
+   }
+}
+@media (min-width: 992px)
+{
+   .principal2{
+    background-image: url(https://pm1.aminoapps.com/6478/f33999e52ad880119a53a8c637f61a40a3ec2ce0_hq.jpg)
+   }
+}
+@media (min-width: 1200px)
+{
+   .principal2{
+    background-image: url(https://i.pinimg.com/564x/cd/73/61/cd73616f6cc58f3e107bc5b67a7a1a7a.jpg)
+   }
+}
+@media (min-width: 1400px)
+{
+   .principal2{
+    background-image: url(https://i.pinimg.com/originals/c9/0d/af/c90dafe45e17a98f2338e09ebaa6e184.jpg)
+   }
+}
+

@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quitanda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="07.css">
+</head>
+
+<body>
+    <nav class="navbar bg-warning navbar-expand-sm sticky-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <i class="bi bi-yelp text-white fs-2 me-2 ">Quintanda online</i>
+            </a>
+            <div class="navbar-nav" id="menuNavBar">
+                <div class="navbar-nav">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavBar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a href="ex07.html" class="nav-link text-white"><i>Principal</i></a>
+                    <a href="ex07_EntreContato.html" class="nav-link text-white"><i class="bi bi-telephone"> Contato</i></a>
+                    <a href="ex07_Cadastro2.html" class="nav-link text-white"><i>Quero me cadastrar</i></a>
+                    <a href="ex07_Cadastro.html" class="nav-link text-white"><i class="bi bi-person-circle"> Entrar</i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-2">
+        <section id="meucarrossel" class="carousel carousel-dark bi-sliders" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#meucarrossel" data-bs-slide-to="2"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <!--Imagem 1-->
+                <div class="carousel-item active  bg-white" data-bs-interval="1000">
+                    <img src="https://img.freepik.com/premium-photo/fresh-berry-and-fruit-mix-border-frame-banner-of-various-ripe-berries-and-mint-leaves-on-pink-background-flat-lay-fruit-pattern_434420-248.jpg?w=2000"
+                        class="w-100 d-block opacity-50 banner">
+                    <div class="carousel-caption">
+                        <span class="border border-danger display-6 d-inline">Promoção</span>
+                        <h1 class="display-4 text-black">FRETE GRÁTIS</h1>
+                        <p class="text-black">Para pedidos acima de R$50,00 reais.</p>
+                    </div>
+                </div>
+                <!--Imagem 2-->
+                <div class="carousel-item active bg-white" data-bs-interval="1000">
+                    <img src="https://png.pngtree.com/background/20210714/original/pngtree-food-fruits-hand-drawn-background-picture-image_1196758.jpg"
+                        class="w-100 d-block opacity-50 banner">
+                    <div class="carousel-caption">
+                        <span class="border border-danger border-3 display-6 d-inline">Promoção</span>
+                        <h1 class="display-4 text-black">FRETE GRÁTIS</h1>
+                        <p class="text-black ">Para pedidos acima de R$50,00 reais.</p>
+                    </div>
+                </div>
+                <!--Imagem 3-->
+                <div class="carousel-item active bg-white" data-bs-interval="1000">
+                    <img src="https://png.pngtree.com/background/20210711/original/pngtree-yellow-pineapple-june-fruit-poster-background-picture-image_1098734.jpg"
+                        class="w-100 d-block opacity-50 banner">
+                    <div class="carousel-caption">
+                        <span class="border border-danger display-6 d-inline">Promoção</span>
+                        <h1 class="display-4 text-black">FRETE GRÁTIS</h1>
+                        <p class="text-black">Para pedidos acima de R$50,00 reais.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#meucarrossel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#meucarrossel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </section>
+        <hr>
+        <div class="d-flex justify-content-between align-items-center">
+            <form class="d-flex">
+                <div class="input-group">
+                    <input type="search" style="height: 40px; width: 350px;"
+                        placeholder="Digite aqui o que você procura" class="form-control">
+                    <button type="submit" style="height: 40px;" class="btn btn-outline-light bg-success">Buscar</button>
+                </div>
+            </form>
+
+            <div class="d-flex align-items-center">
+                <nav class="pt-3">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a href="#" class="page-link">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">5</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">6</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="btn-group m-lg-3 ">
+                    <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">Ordenar pelo nome</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">1</a></li>
+                        <li><a class="dropdown-item" href="#">2</a></li>
+                        <li><a class="dropdown-item" href="#">3</a></li>
+                        <li><a class="dropdown-item" href="#">4</a></li>
+                        <li><a class="dropdown-item" href="#">5</a></li>
+                        <li><a class="dropdown-item" href="#">6</a></li>
+                        <li><a class="dropdown-item" href="#">7</a></li>
+                        <li><a class="dropdown-item" href="#">8</a></li>
+                        <li><a class="dropdown-item" href="#">9</a></li>
+                        <li><a class="dropdown-item" href="#">10</a></li>
+                        <li><a class="dropdown-item" href="#">11</a></li>
+                        <li><a class="dropdown-item" href="#">12</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <hr>
+
+    <section class="row gap-1 justify-content-center">
+
+        
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/000001.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Banana Prata</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Banana Prata da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000001.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+       
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/000002.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Abacaxi Pérola</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Abacaxi Pérola da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000002.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+   
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/000003.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Mamão Papaia</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Mamão Papaia melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        
+        
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/000004.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Maçã Gala</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Maçã Gala da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+        
+        
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/000005.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Goiaba</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Goiaba da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+        
+        
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/000006.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Laranja Pera</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Laranja Pera da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/kiwi.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Kiwi</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Kiwi da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/morango.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Morango Orgânico</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Morango Orgânico da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/uva.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Uva Thompson</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Uva Thompson da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/melancia.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Melancia</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Melancia da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/pitaya.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Pitaya</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Pitaya da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/Pessego.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Pêssego</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Pêssego da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/manga.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Manga</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Manga da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/tangerina.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Tangerina</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Tangerina da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/ameixa.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Ameixa Estrangeira</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Ameixa Estrangeira da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+         
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/Maracuja-Azedo.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Maracuja</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Maracuja da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/000007.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Abacate</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Abacate da melhor qualidade possível!!!</li>
+        
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/limao.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Limão Taiti</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Limão Tati da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+       
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/100313-tomate-carmem.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Tomate Carmem</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Tomate Carmem da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+         
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/1065[1]-1000x1000.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Pimentão</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Pimentão da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/000009.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Abóbora Cabotia</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Abóbora Cabotia da melhor qualidade possível!!!</li>
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+
+        
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/000011.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Alface</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Alface da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+         
+        
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/inhame_1000x.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Inhame</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Inhame da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/cenoura.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Cenoura Orgânica</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cenoura Orgânica da melhor qualidade possível!!!</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/pepino.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Pepino</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Pepino da melhor qualidade possível!!!</li>
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/Berinjela--1-.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Berinjela</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Berinjela da melhor qualidade possível!!!</li>
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/nabo.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Nabo</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Nabo da melhor qualidade possível!!!</li>
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/beterraba.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Beterraba</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Beterraba da melhor qualidade possível!!!</li>
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/maxixe.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Maxixe</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Maxixe da melhor qualidade possível!!!</li>
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+            <img src="img/produtos/Cebola-Nacional-Aproximadamente-500g.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Cebola Nacional</h5>
+                <p class="card-text bg-info-subtle">R$ 4,50</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cebola Nacional da melhor qualidade possível!!!</li>
+            </ul>
+            <div class="card-body">
+                <a href="img/produtos/000004.jpg" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+    </section>
+        <hr>
+
+        <div class="d-flex justify-content-between align-items-center">
+            <form class="d-flex"></form>
+            <div class="d-flex align-items-center">
+                <nav class="pt-3">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a href="#" class="page-link">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">5</a>
+                        </li>
+                        <li class="page-item">
+                            <a href="#" class="page-link">6</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="btn-group m-lg-3 ">
+                    <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">Ordenar pelo nome</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">1</a></li>
+                        <li><a class="dropdown-item" href="#">2</a></li>
+                        <li><a class="dropdown-item" href="#">3</a></li>
+                        <li><a class="dropdown-item" href="#">4</a></li>
+                        <li><a class="dropdown-item" href="#">5</a></li>
+                        <li><a class="dropdown-item" href="#">6</a></li>
+                        <li><a class="dropdown-item" href="#">7</a></li>
+                        <li><a class="dropdown-item" href="#">8</a></li>
+                        <li><a class="dropdown-item" href="#">9</a></li>
+                        <li><a class="dropdown-item" href="#">10</a></li>
+                        <li><a class="dropdown-item" href="#">11</a></li>
+                        <li><a class="dropdown-item" href="#">12</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--i class="bi bi-r-circle"></i>-->
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+
+
+</html>
